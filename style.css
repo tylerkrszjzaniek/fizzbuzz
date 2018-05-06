@@ -1,25 +1,51 @@
+body {
+  font-family: helvetica;
+  background-image: url("hbone.jpg");
+}
 
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+}
 /* main area where content will be held */
 .container {
   background-color: wheat;
   display: flex;
   width: 50%;
-  align-content: center;
+  align-content: flex-start;
   justify-content: center;
   margin: 25%;
+  margin-bottom: 5%;
+  margin-top: 10%;
+}
+
+.textarea {
 
 }
+
 /* area where number will be displayed */
 #numberdisplay {
-  display: flex;
-justify-content: center;
-background-color: white;
-margin: 1%;
+display: none;
+}
 
+#form {
+  margin-top: 10%;
+  align-content: center;
+  display: flex;
 }
 
 #fizzbuzz {
   display: flex;
   justify-content: center;
-
+  margin-top: 5%;
+  font-size: 50px;
+  color: red;
+  font-weight: bold;
+  align-content: center;
 }

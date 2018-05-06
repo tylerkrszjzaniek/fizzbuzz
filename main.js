@@ -3,7 +3,11 @@ var numEntry = function numEntry(){
 
     document.getElementById( "numberdisplay" ).innerHTML = x;
 
-    if( x % 3 === 0 ){
+    if( x % 3 == 0  &&  x % 5 == 0 ){
+        document.getElementById( "fizzbuzz" ).innerHTML = "Fizzbuzz";
+    }
+
+    else if( x % 3 === 0 ){
         document.getElementById( "fizzbuzz" ).innerHTML = "Fizz";
     }
 
@@ -11,9 +15,6 @@ var numEntry = function numEntry(){
         document.getElementById( "fizzbuzz" ).innerHTML = "Buzz";
     }
 
-    else if(  x % 3 === 0  &&  x % 5 === 0  ){
-        document.getElementById( "fizzbuzz" ).innerHTML = "Fizzbuzz";
-    }
 
     else{
         ( document.getElementById( "fizzbuzz" ).innerHTML = x );
