@@ -1,0 +1,25 @@
+
+/* main area where content will be held */
+.container {
+  background-color: wheat;
+  display: flex;
+  width: 50%;
+  align-content: center;
+  justify-content: center;
+  margin: 25%;
+
+}
+/* area where number will be displayed */
+#numberdisplay {
+  display: flex;
+justify-content: center;
+background-color: white;
+margin: 1%;
+
+}
+
+#fizzbuzz {
+  display: flex;
+  justify-content: center;
+
+}
